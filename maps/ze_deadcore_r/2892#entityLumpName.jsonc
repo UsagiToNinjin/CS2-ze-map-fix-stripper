@@ -2,7 +2,7 @@
 // map ze_deadcore_r
 // workshop id 3331345627
 {
-	"modify":
+    "modify": // fix invisible particle bug
     [ 
         {
             "match":
@@ -13,15 +13,15 @@
             {
                 "io":
                 [	
-					{
-						"outputname": "OnFullyClosed",
-						"targetname": "!self",
-						"inputname": "Kill",
-						"delay": 0.0,
-						"timestofire": -1
-					}
-				]
-			}
-		}
-	]
-}	
+                    {
+                        "outputname": "OnFullyClosed",
+                        "targetname": "!self",
+                        "inputname": "Kill",
+                        "delay": 0.0,
+                        "timestofire": -1
+                    }
+		]
+	    }
+	}
+    ]
+}
