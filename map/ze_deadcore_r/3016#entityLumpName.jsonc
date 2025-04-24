@@ -2,7 +2,7 @@
 // map ze_deadcore_r
 // workshop id 3331345627
 {
-    "modify": fix invisible particle bug
+    "modify": // fix invisible particle bug
     [ 
         {
             "match":
